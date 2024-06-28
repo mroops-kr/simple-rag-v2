@@ -23,6 +23,10 @@
 ### Changes
 * To improve the accuracy of text extraction, we now use a combination of 'jhgan/ko-sbert-nli' and BM25 (EnsembleRetriever).
 * While using EnsembleRetriever, instead of using a Vector DB, we save the already embedded values to a file (using numpy).
+* To use the model offline, download the model using the code below and execute it.
+``` C
+python utils/model_download.py
+```
 
 ### Previous version
 * https://github.com/mroops-kr/simple-rag
